@@ -42,7 +42,7 @@ foreach ($csv as $row) {
                 $numbers[$row[$i]] = 1;
             }
         }else {
-            if (isset($numbers[$row[$i]]) && $row[$i] >= 1 && $row[$i] <= 25) {
+            if (isset($numbers[$row[$i]]) && $row[$i] >= 1 && $row[$i] <= 24) {
                 $numbers[$row[$i]]++;
             } else {
                 $numbers[$row[$i]] = 1;
@@ -80,7 +80,7 @@ foreach ($csv as $row) {
                 $numbers[$row[$i]] = 1;
             }
         }else {
-            if (isset($numbers[$row[$i]]) && $row[$i] >= 1 && $row[$i] <= 25) {
+            if (isset($numbers[$row[$i]]) && $row[$i] >= 1 && $row[$i] <= 24) {
                 $numbers[$row[$i]]++;
             } else {
                 $numbers[$row[$i]] = 1;
